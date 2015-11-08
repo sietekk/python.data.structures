@@ -6,7 +6,13 @@ class OrderedList(UnorderedList):
     """ Ordered List implementation in Python
         Pages 128-136, Listings 3.17-3.22
         Subclassed UnorderedList, search() and add() modified
-        Complexity: O(n)
+        Complexity:
+            - is_empty O(1)
+            - length O(n)
+            - Add an item O(1)
+            - add O(n)
+            - search O(n)
+            - remove O(n)
     """
 
     def __init__(self):
