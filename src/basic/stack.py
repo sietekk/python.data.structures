@@ -1,5 +1,5 @@
 class Stack(object):
-    """ Stack implementation in python
+    """ Stack implementation in Python
         Page 86, Listing 3.1
         Implementation is O(1)
     """
