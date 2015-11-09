@@ -61,14 +61,14 @@ class HashTable(object):
     def __setitem__(self, key, data):
         self.put(key, data)
 
-    def del(self):
-        # TODO: Implement
+    def __delitem__(self, key):
+        # TODO: Implement; implements "del"
         pass
 
-    def len(self):
-        # TODO: Implement
+    def __len__(self):
+        # TODO: Implement; implements "len"
         pass
 
-    def __contains__(self):
+    def __contains__(self, value):
         # TODO: Implement; implements "in" keyword
         pass
